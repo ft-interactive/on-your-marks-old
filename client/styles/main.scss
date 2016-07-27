@@ -103,11 +103,26 @@ $share-button-size: 38px;
 
 // Custom
 .game-container {
-  top: -46px;
+  margin-top: -64px;
+  margin-bottom: 40px;
+  padding-top: 64px;
+  background: url(https://placehold.it/1920x1080) no-repeat center center;
+}
+
+.game {
   width: 100vw;
+  margin: -36px 0 !important;
+  padding: unset !important;
   max-width: unset !important;
   height: calc(100vh - 46px);
-  padding-top: 64px;
-  margin-top: -64px;
-  background: url(http://placekitten.com/1920/1080) no-repeat center center;
+}
+
+.game .article-body.o-typography-body-wrapper {
+  max-width: 625px;
+  margin-left: auto;
+  margin-right: auto;
+  .o-typography-footer {
+    position: absolute;
+    bottom: 0;
+  }
 }
