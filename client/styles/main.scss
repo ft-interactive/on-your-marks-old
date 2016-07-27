@@ -100,3 +100,14 @@ $share-button-size: 38px;
   }
 
 }
+
+// Custom
+.game-container {
+  top: -46px;
+  width: 100vw;
+  max-width: unset !important;
+  height: calc(100vh - 46px);
+  padding-top: 64px;
+  margin-top: -64px;
+  background: url(http://placekitten.com/1920/1080) no-repeat center center;
+}

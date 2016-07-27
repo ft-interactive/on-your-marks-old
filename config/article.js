@@ -11,9 +11,9 @@ export default _ => ({
   //       new Date('2016-05-17T17:11:22Z')
   publishedDate: new Date(),
 
-  headline: 'Politics and the English Language',
+  headline: 'On your marks',
 
-  summary: 'Political language is designed to make lies sound truthful and murder respectable, and to give an appearance of solidity to pure wind',
+  summary: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 
   topic: {
     name: 'Starter Kit',
@@ -28,8 +28,8 @@ export default _ => ({
   // Byline can by a plain string, markdown, or array of authors
   // if array of authors, url is optional
   byline: [
-    {name: 'Author One', url: '/foo/bar'},
-    {name: 'Author Two'},
+    {name: 'John Burn-Murdoch', url: 'https://twitter.com/jburnmurdoch'},
+    {name: 'David Blood',  url: 'https://twitter.com/davidbjourno'},
   ],
 
   // Appears in the HTML <title>
