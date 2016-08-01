@@ -1,3 +1,10 @@
+const activePanel = document.querySelector('#intro');
+const startButton = document.querySelector('#start');
 
-// YOUR CODE HERE
+function goToNext() {
+  activePanel.classList.toggle('show');
+}
+
+startButton.onclick = goToNext;
+
 document.dispatchEvent(new CustomEvent('ig.Loaded'));

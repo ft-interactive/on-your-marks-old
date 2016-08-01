@@ -103,10 +103,12 @@ $share-button-size: 38px;
 
 // Custom
 .game-container {
+  height: calc(100vh - 46px);
   margin-top: -64px;
   margin-bottom: 40px;
   padding-top: 64px;
-  background: url(https://placehold.it/1920x1080) no-repeat center center;
+  background: url(/intro.jpg) no-repeat top center;
+  background-size: cover;
 }
 
 .game {
@@ -114,7 +116,6 @@ $share-button-size: 38px;
   margin: -36px 0 !important;
   padding: unset !important;
   max-width: unset !important;
-  height: calc(100vh - 46px);
 }
 
 .game .article-body.o-typography-body-wrapper {
@@ -125,4 +126,20 @@ $share-button-size: 38px;
     position: absolute;
     bottom: 0;
   }
+}
+
+.panel {
+  display: none;
+  margin-top: 50%;
+  margin-bottom: auto;
+  padding: 20px;
+  background: rgba(176, 176, 176, 0.9);
+  border: 1px solid #2bbbbf;
+  &.show {
+    display: block;
+  }
+}
+
+button.start {
+  margin: 50% 0 0 !important;
 }
